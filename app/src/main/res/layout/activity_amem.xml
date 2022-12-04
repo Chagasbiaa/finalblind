@@ -2,85 +2,86 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/TELA"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".opcoes">
+    tools:context=".amem">
 
-    <Button
-        android:id="@+id/btnlocal"
-        style="@style/BOTAO"
-        android:layout_width="201dp"
-        android:layout_height="53dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Patterson em ação!"
-        android:textSize="17sp"
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:hint="@string/pers1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/TEXTO"
+        android:layout_width="313dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="6dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.109" />
 
     <Button
-        android:id="@+id/btnfoto"
+        android:id="@+id/write_button"
         style="@style/BOTAO"
-        android:layout_width="201dp"
-        android:layout_height="53dp"
+        android:layout_width="168dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/botaoredondo"
-        android:text="Suspeita de algo?"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Write"
+        app:layout_constraintBottom_toTopOf="@+id/read_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btnsens"
+        android:id="@+id/read_button"
         style="@style/BOTAO"
-        android:layout_width="201dp"
-        android:layout_height="53dp"
+        android:layout_width="168dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botaoredondo"
-        android:text="Alguém por perto?"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Read"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnpersn"
-        style="@style/BOTAO"
-        android:layout_width="201dp"
-        android:layout_height="53dp"
-        android:background="@drawable/botaoredondo"
-        android:text="@string/pers"
-        android:textSize="15sp"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="40dp"
+        android:text="@string/teorias"
+        style="@style/TEXTO"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573" />
-
-    <Button
-        android:id="@+id/btnpersn2"
-        style="@style/BOTAO"
-        android:layout_width="201dp"
-        android:layout_height="53dp"
-        android:background="@drawable/botaoredondo"
-        android:text="@string/photo"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.708" />
 
     <Button
         android:id="@+id/btnpersona12"
@@ -156,41 +157,16 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/txtescolha"
+        android:id="@+id/textView4"
         style="@style/TEXTO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/text_escolha"
+        android:text="@string/teori"
         android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/userInput"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
-
-    <Switch
-        android:id="@+id/switchExibe"
-        android:layout_width="64dp"
-        android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.665"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.834" />
-
-    <TextView
-        android:id="@+id/txtdark"
-        style="@style/tete"
-        android:layout_width="136dp"
-        android:layout_height="27dp"
-        android:text="@string/mode"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.371"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintVertical_bias="0.64" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,7 @@ public class opcoes extends AppCompatActivity {
     Button sensor;
     Button local;
     Button foto;
+    Button perns;
     Switch switcher;
     boolean ModoDark;
     SharedPreferences sharedPreferences;
@@ -127,6 +128,16 @@ public class opcoes extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(opcoes.this, foto.class);
+                startActivity(intent);
+            }
+        });
+
+        perns = findViewById(R.id.btnpersn);
+        perns.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(opcoes.this, amem.class);
                 startActivity(intent);
             }
         });

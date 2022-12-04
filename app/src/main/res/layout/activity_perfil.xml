@@ -96,19 +96,6 @@
         android:contentDescription="TODO" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_email_telaprofile"
-        android:textColor="@color/purple_500"
-        android:textSize="13sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.388" />
-
-    <TextView
         android:id="@+id/txtvw_perfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -148,27 +135,15 @@
         app:srcCompat="@drawable/icon_name_profile" />
 
     <ImageView
-        android:id="@+id/imvw_profile2"
-        android:layout_width="38dp"
-        android:layout_height="35dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626"
-        app:srcCompat="@drawable/icon_email_profile" />
-
-    <ImageView
         android:id="@+id/imvw_profile3"
         android:layout_width="39dp"
         android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752"
+        app:layout_constraintVertical_bias="0.618"
         app:srcCompat="@drawable/icon_senha_profile" />
 
     <ImageView
@@ -184,18 +159,6 @@
         app:srcCompat="@drawable/div_profile" />
 
     <ImageView
-        android:id="@+id/imvw_divprofile2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662"
-        app:srcCompat="@drawable/div_profile" />
-
-    <ImageView
         android:id="@+id/imvw_divprofile3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -204,7 +167,7 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782"
+        app:layout_constraintVertical_bias="0.679"
         app:srcCompat="@drawable/div_profile" />
 
     <ImageView
@@ -222,20 +185,6 @@
         app:srcCompat="@drawable/iconseta" />
 
     <ImageView
-        android:id="@+id/imvw_seta2"
-        android:layout_width="20dp"
-        android:layout_height="25dp"
-        android:contentDescription="TODO"
-        android:rotation="180"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.631"
-        app:srcCompat="@drawable/iconseta" />
-
-    <ImageView
         android:id="@+id/imvw_seta3"
         android:layout_width="20dp"
         android:layout_height="25dp"
@@ -246,7 +195,7 @@
         app:layout_constraintHorizontal_bias="0.957"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755"
+        app:layout_constraintVertical_bias="0.628"
         app:srcCompat="@drawable/iconseta" />
 
     <Button
@@ -255,7 +204,7 @@
         android:layout_height="44dp"
         android:background="@drawable/botaoredondo"
         android:text="@string/text_btnediprofile"
-        android:textColor="@color/white"
+        style="@style/BOTAOO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.918"
@@ -278,19 +227,6 @@
         app:layout_constraintVertical_bias="0.507" />
 
     <TextView
-        android:id="@+id/txtvw_labelvalor2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_labelemail_telaprofile"
-        android:textColor="@color/purple_700"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.236"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
-
-    <TextView
         android:id="@+id/txtvw_labelvalor3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -298,10 +234,10 @@
         android:textColor="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintHorizontal_bias="0.237"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753" />
+        app:layout_constraintVertical_bias="0.624" />
 
     <TextView
         android:id="@+id/txtvw_valornome"
@@ -317,19 +253,6 @@
         app:layout_constraintVertical_bias="0.507" />
 
     <TextView
-        android:id="@+id/txtvw_valoremail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_valoremail_telaprofile"
-        android:textColor="@color/purple_700"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
-
-    <TextView
         android:id="@+id/txtvw_valorsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -337,10 +260,10 @@
         android:textColor="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753" />
+        app:layout_constraintVertical_bias="0.63" />
 
     <ImageView
         android:id="@+id/imvw_fotoprofile_error"

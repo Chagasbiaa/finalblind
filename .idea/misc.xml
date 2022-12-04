@@ -29,7 +29,9 @@
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/drawable/botaoredondo.xml" value="0.2105" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/drawable/cor.xml" value="0.2105" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/drawable/imgbutton.xml" value="0.2105" />
+        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_amem.xml" value="0.25" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_aventura.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_bombinha.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_casessolved.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_cns.xml" value="0.1814814814814815" />
@@ -46,7 +48,7 @@
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_opcoes.xml" value="0.33" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_patlocal.xml" value="0.1814814814814815" />
-        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_perfil.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_perfil.xml" value="0.33" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_personas.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_sensor_laterna.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_aventura.xml" value="0.22" />

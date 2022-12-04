@@ -23,6 +23,12 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".bombinha"
+            android:exported="false" />
+        <activity
+            android:name=".amem"
+            android:exported="false" />
+        <activity
             android:name=".enviado"
             android:exported="false" />
         <activity

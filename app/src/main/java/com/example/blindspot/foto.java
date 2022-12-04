@@ -112,8 +112,6 @@ public class foto extends AppCompatActivity {
 
             }
 
-
-
         }
     }
     private void selectPhoto() {

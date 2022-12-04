@@ -40,7 +40,7 @@
     <string name="text_patterson">para Patterson</string>
     <string name="text_conta">Não possui conta?</string>
     <string name="text_login">Já possui conta?</string>
-    <string name="text_ola">Olá Monica silva!</string>
+    <string name="text_ola">Seja Bem-vindo!</string>
     <string name="text_pesq">Mais pesquisados</string>
     <string name="text_jane">Jane Doe-Weller é uma ex-consultora do FBI e ex-terrorista que foi colocada no Grupo de Resposta a Incidentes Críticos, liderado por Kurt Weller, para auxiliar em seu próprio caso de investigação, onde ela ajudou continuamente a equipe a resolver os casos relacionados a suas tatuagens. Ela é a personagem central da série, e é retratada como a protagonista de Blindspot da NBC. Jane descobre e gerencia efetivamente suas habilidades de combate avançadas únicas para ajudar sua equipe a impedir ocurso de operações ilegais destacadas em suas tatuagens por uma organização terrorista</string>
     <string name="text_reade">Quando criança, Reade era um campista no Mulmur Hills Football Camp, onde fez amizade com o treinador Jones, que mais tarde se tornou estuprador. Mais tarde, ele frequentou a Universidade de Michigan. Onde ele ainda detém um recorde de recepção no futebol.  Estava implícito que Reade poderia ter sido o primeiro agente trabalhando ao lado de Weller e Patterson como parte da divisão CIRG liderada por Bethany Mayfair.</string>
@@ -50,4 +50,10 @@
     <string name="text_envi">Denuncia enviada com Sucesso</string>
     <string name="mode">Deseja privacidade?</string>
     <string name="princ">Principais casos</string>
+    <string name="pers">Personagens preferidos</string>
+    <string name="pers1">Digite aqui:</string>
+    <string name="photo">Personagens</string>
+    <string name="teori">Escrevas suas teorias</string>
+    <string name="teorias">Ultima teoria salva</string>
+
 </resources>
