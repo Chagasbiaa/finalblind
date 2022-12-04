@@ -1,9 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bombinha">
+    android:scrollbarStyle="outsideOverlay">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TELA"
+        tools:context=".bombinhaactivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TEXTO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/galeria"
+            android:textSize="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="36dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/screen"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="-10dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:srcCompat="@drawable/screen2"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:srcCompat="@drawable/screen3"
+            tools:layout_editor_absoluteX="0dp"  />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/screen4"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/screen5"
+            tools:layout_editor_absoluteX="0dp"
+            />
+
+        <Button
+            android:id="@+id/btnsalvarimg1"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
+            android:background="@drawable/botaoredondo"
+            style="@style/BOTAO"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/save"
+            app:cornerRadius="10dp"
+            app:icon="@android:drawable/stat_sys_download"
+            app:iconPadding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="@+id/imageView6" />
+
+        <Button
+            android:id="@+id/btnsalvarimg2"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/botaoredondo"
+            style="@style/BOTAO"
+            android:text="@string/save"
+            app:cornerRadius="10dp"
+            app:icon="@android:drawable/stat_sys_download"
+            app:iconPadding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8" />
+
+        <Button
+            android:id="@+id/btnsalvarimg3"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/botaoredondo"
+            style="@style/BOTAO"
+            android:text="@string/save"
+            app:cornerRadius="10dp"
+            app:icon="@android:drawable/stat_sys_download"
+            app:iconPadding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9" />
+
+        <Button
+            android:id="@+id/btnsalvarimg4"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/botaoredondo"
+            style="@style/BOTAO"
+            android:text="@string/save"
+            app:cornerRadius="10dp"
+            app:icon="@android:drawable/stat_sys_download"
+            app:iconPadding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="@+id/imageView10" />
+
+        <Button
+            android:id="@+id/btnsalvarimg5"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/botaoredondo"
+            style="@style/BOTAO"
+            android:text="@string/save"
+            app:cornerRadius="10dp"
+            app:icon="@android:drawable/stat_sys_download"
+            app:iconPadding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+            app:layout_constraintEnd_toEndOf="@+id/imageView11" />
+
+        <ImageView
+            android:id="@+id/imvw_voltarprofile"
+            android:layout_width="32dp"
+            android:layout_height="29dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.017"
+            app:srcCompat="@drawable/iconseta" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

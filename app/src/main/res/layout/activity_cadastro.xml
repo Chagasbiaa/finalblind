@@ -62,8 +62,8 @@
         android:drawableLeft="@drawable/senhaa"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:textColor="#FFFFFF"
+        android:inputType="textPassword"
         android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,10 +77,10 @@
         android:layout_width="380dp"
         android:layout_height="38dp"
         android:layout_below="@id/username"
-        android:drawableLeft="@drawable/emaail"
+        android:drawableLeft="@drawable/senhaa"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,7 +162,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.525" />
 
-    <EditText
+z    <EditText
         android:id="@+id/username"
         android:layout_width="380dp"
         android:layout_height="38dp"
@@ -179,19 +179,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.352" />
-
-    <TextView
-        android:id="@+id/txtsenha3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:shadowColor="#CFA0A0"
-        android:text="@string/txtTCConfirSenha"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

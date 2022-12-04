@@ -16,13 +16,13 @@
     <string name="txtAventure">Aventure-se nos casos!</string>
     <string name="txt_explore_telaaventura">EXPLORE</string>
     <string name="txt_perfil_telaprofile">Perfil</string>
-    <string name="text_nome_telaprofile">Mônica Sousa Silva</string>
+    <string name="text_nome_telaprofile">Blindspot´s fan</string>
     <string name="text_email_telaprofile">mocsilva@gmail.com</string>
-    <string name="text_btnediprofile">Editar perfil</string>
+    <string name="text_btnediprofile">Logar outra conta</string>
     <string name="text_labelnome_telaprofile">Nome</string>
     <string name="text_labelemail_telaprofile">Email</string>
     <string name="text_labelsenha_telaprofile">Senha</string>
-    <string name="text_valornome">Mônica Sousa Silva</string>
+    <string name="text_valornome">Alterar</string>
     <string name="text_valoremail_telaprofile">mcsilva@gmail.com</string>
     <string name="text_valorsenha_telaprofile">************</string>
     <string name="text_saibaperson_telapers">Saiba mais sobre eles!</string>
@@ -50,10 +50,12 @@
     <string name="text_envi">Denuncia enviada com Sucesso</string>
     <string name="mode">Deseja privacidade?</string>
     <string name="princ">Principais casos</string>
-    <string name="pers">Personagens preferidos</string>
+    <string name="pers">Escreva suas teorias</string>
     <string name="pers1">Digite aqui:</string>
-    <string name="photo">Personagens</string>
+    <string name="photo">Galeria</string>
     <string name="teori">Escrevas suas teorias</string>
     <string name="teorias">Ultima teoria salva</string>
+    <string name="save">SALVAR</string>
+    <string name="galeria">Galeria</string>
 
 </resources>

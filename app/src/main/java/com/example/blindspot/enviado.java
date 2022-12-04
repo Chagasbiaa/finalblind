@@ -13,6 +13,7 @@ public class enviado extends AppCompatActivity {
     Button casos;
     Button perfil;
     Button foto;
+    Button voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,16 @@ public class enviado extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(enviado.this, aventura.class);
+                startActivity(intent);
+            }
+        });
+
+        voltar = findViewById(R.id.btnvoltar);
+        voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(enviado.this, opcoes.class);
                 startActivity(intent);
             }
         });

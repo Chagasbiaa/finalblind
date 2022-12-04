@@ -36,6 +36,7 @@
         android:layout_height="73dp"
         android:background="@drawable/botaoredondo"
         android:text="Enviar"
+        style="@style/BOTAO"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
